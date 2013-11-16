@@ -5,13 +5,14 @@
     <ignored path="muevete.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1383409581213" ignored="false" />
-    <file path="/peticion.html" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1383411648363" ignored="false" />
+    <file path="/peticion.html" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1384605508876" ignored="false" />
     <file path="/funciones.js" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1383412385578" ignored="false" />
     <file path="/estilo.css" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1383324628932" ignored="false" />
     <file path="/usuario.html" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1382376373280" ignored="false" />
     <file path="/PruebaSpec.js" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1383414437542" ignored="false" />
     <file path="/SpecRunner.html" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1383591216211" ignored="false" />
     <file path="/readme.txt" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1383591032130" ignored="false" />
+    <file path="/firma.js" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1384605979607" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,29 +37,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="48" selection-start="5123" selection-end="5123" vertical-scroll-proportion="0.8924731">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="peticion.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/peticion.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="0" selection-start="6721" selection-end="6904" vertical-scroll-proportion="-17.875">
+            <state line="111" column="41" selection-start="5756" selection-end="5756" vertical-scroll-proportion="-11.916667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usuario.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usuario.html">
+      <file leaf-file-name="funciones.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="0" selection-start="4980" selection-end="5163" vertical-scroll-proportion="-16.375">
+            <state line="262" column="0" selection-start="7940" selection-end="8244" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firma.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backbone/modelos/firma.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="4" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#154#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firma.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backbone/vistas/firma.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="21" selection-start="913" selection-end="913" vertical-scroll-proportion="0.720524">
+              <folding>
+                <element signature="e#0#154#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,15 +94,18 @@
         <option value="$PROJECT_DIR$/jasmine/spec/PruebaSpec.js" />
         <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/usuario.html" />
-        <option value="$PROJECT_DIR$/peticion.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/backbone/modelos/firma.js" />
+        <option value="$PROJECT_DIR$/peticion.html" />
+        <option value="$PROJECT_DIR$/backbone/vistas/firma.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="width" value="1368" />
-    <option name="height" value="748" />
+    <option name="x" value="270" />
+    <option name="y" value="89" />
+    <option name="width" value="866" />
+    <option name="height" value="613" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -122,6 +139,52 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="muevete" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="muevete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="muevete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="muevete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="muevete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backbone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vistas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="muevete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="muevete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backbone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modelos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -210,14 +273,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1368" height="748" extended-state="6" />
+    <frame x="270" y="89" width="866" height="613" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14545454" sideWeight="0.67096776" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2383863" sideWeight="0.67096776" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -293,16 +356,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/estilo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="28" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/funciones.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="41" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usuario.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="4" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" />
@@ -335,11 +388,6 @@
         <state line="36" column="19" selection-start="560" selection-end="560" vertical-scroll-proportion="0.91062397" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/funciones.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="76" selection-start="2690" selection-end="2690" vertical-scroll-proportion="1.2448276" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jasmine/spec/PruebaSpec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="155" selection-end="893" vertical-scroll-proportion="0.05059022" />
@@ -360,24 +408,49 @@
         <state line="4" column="29" selection-start="61" selection-end="84" vertical-scroll-proportion="0.10118044" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="48" selection-start="5123" selection-end="5123" vertical-scroll-proportion="-19.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/usuario.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="0" selection-start="4980" selection-end="5163" vertical-scroll-proportion="-16.375">
+        <state line="102" column="58" selection-start="4848" selection-end="4848" vertical-scroll-proportion="-12.541667">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backbone/modelos/firma.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#154#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/peticion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="0" selection-start="6721" selection-end="6904" vertical-scroll-proportion="-17.875">
+        <state line="111" column="41" selection-start="5756" selection-end="5756" vertical-scroll-proportion="-11.916667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="48" selection-start="5123" selection-end="5123" vertical-scroll-proportion="0.8924731">
+        <state line="262" column="0" selection-start="7940" selection-end="8244" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backbone/vistas/firma.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="21" selection-start="913" selection-end="913" vertical-scroll-proportion="0.720524">
+          <folding>
+            <element signature="e#0#154#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

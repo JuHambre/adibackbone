@@ -99,17 +99,19 @@
                 </div>
             {{/peticion}}
 
-        <div class="col-lg-3">
-            <form id="formFirma">
-                <span id="datosPersonales">
-                    <p>Nombre</p> <input id="nombreFirma" name="nombre" type="text">
-                    <p>Apellidos</p> <input id="apellidosFirma" name="apellidos" type="text">
-                    <p>Email</p> <input id="emailFirma" name="email" type="text">
-                </span>
-                <p>Motivos</p> <textarea id="comentarioFirma" name="comentario"> </textarea>
-                <p><input id="publicaFirma" name="publica" type="checkbox"> ¿Desea mostrar publicamente su firma?</p>
-                <input class="btn" type="button" value="Firmar" onclick="crearFirma()">
-            </form>
+        <div id="divFirma" class="col-lg-3">
+            <script id="viewFirma" type="text/template">
+                <form id="formFirma">
+                    <span id="datosPersonales">
+                        <p>Nombre</p> <input id="nombreFirma" name="nombre" type="text">
+                        <p>Apellidos</p> <input id="apellidosFirma" name="apellidos" type="text">
+                        <p>Email</p> <input id="emailFirma" name="email" type="text">
+                    </span>
+                    <p>Motivos</p> <textarea id="comentarioFirma" name="comentario"> </textarea>
+                    <p><input id="publicaFirma" name="publica" type="checkbox"> ¿Desea mostrar publicamente su firma?</p>
+                    <input id="botonFirma" class="btn" type="button" value="Firmar">
+                </form>
+            </script>
         </div>
 
         <div class="col-lg-3">
@@ -153,5 +155,13 @@
     <script src="lib/underscore-min.js"> </script>
     <!-- el propio backbone -->
     <script src="lib/backbone-min.js"> </script>
+    <!-- Modelos -->
+    <script src="backbone/modelos/firma.js"> </script>
+    <!-- Vistas -->
+    <script src="backbone/vistas/firma.js"> </script>
+    <script>
+        var firma = new FirmaView()
+        firma.render()
+    </script>
 </body>
 </html>
