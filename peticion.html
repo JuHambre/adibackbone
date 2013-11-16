@@ -123,18 +123,30 @@
 
     </div> <!-- row -->
 
+    <br>
+    <br>
+
     <div class="row">
-        <div class="col-lg-5">
+        <div id="divActualizacion" class="col-lg-5">
             <h2>Actualizaciones</h2>
-            <h3>
-                {{#peticion}}
-                    {{#creador}}
-                        {{nombre}} {{apellidos}}
-                    {{/creador}}
-                {{/peticion}}
-            </h3>
-            <p>07/01/2013</p>
-            <p>Empresass Wayne ha conseguido con nanotecnología salvar a los berberechos salvajes, además de a los mejillones</p>
+            {{=<% %>=}}
+            <script id="viewActualizacion" type="text/template">
+                <h3>
+                    {{fecha}}
+                    {{contenido}}
+                </h3>
+            </script>
+            <%={{ }}=%>
+
+        </div>
+        <script id="divBotonCrearActualizacion" type="text/template">
+            <input id="botonCrearActualizacion" class="btn" type="button" value="Crear">
+        </script>
+
+        <div id="divFormActualizacion" class="col-lg-5">
+                <form id="formActualizacion">
+                    <p>Actualizacion</p> <textarea id="comentarioActualizacion"> </textarea>
+                </form>
         </div>
     </div>
 
@@ -155,13 +167,25 @@
     <script src="lib/underscore-min.js"> </script>
     <!-- el propio backbone -->
     <script src="lib/backbone-min.js"> </script>
+    <!-- Mustache -->
+    <script src="lib/mustache.js"></script>
     <!-- Modelos -->
     <script src="backbone/modelos/firma.js"> </script>
+    <script src="backbone/modelos/actualizacion.js"> </script>
+    <!-- Colecciones -->
+    <script src="backbone/colecciones/actualizacion.js"> </script>
     <!-- Vistas -->
     <script src="backbone/vistas/firma.js"> </script>
+    <script src="backbone/vistas/actualizacion.js"> </script>
+    <script src="backbone/vistas/colactualizacion.js"></script>
+
     <script>
         var firma = new FirmaView()
         firma.render()
+
+        var colactualizacion = new Actualizaciones()
+        var colactualizacionview = new ColActualizacionView({collection:colactualizacion})
+        colactualizacion.fetch();
     </script>
 </body>
 </html>
