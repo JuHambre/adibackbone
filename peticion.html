@@ -63,7 +63,8 @@
             <div class="navbar-collapse collapse">
                 <form class="navbar-form navbar-right">
                     <span id="mensaje"></span>
-                    <button id="botonPeticion" type="submit" class="btn btn-success" onclick="showLightboxPeticion();return false" style="display:none;">Crear Peticion</button>
+                    <button id="botonEditarUsuario" type="submit" class="btn btn-success" onclick="hideLightboxPeticion();showLightboxEditarUsuario();return false" style="display:none;">Editar Usuario</button>
+                    <button id="botonPeticion" type="submit" class="btn btn-success" onclick="hideLightboxEditarUsuario();showLightboxPeticion();return false" style="display:none;">Crear Peticion</button>
                     <button id="botonLogin" type="submit" class="btn btn-success" onclick="hideLightboxRegistro();showLightboxLogin();return false">Login</button>
                     <button id="botonRegistro" type="submit" class="btn btn-success" onclick="hideLightboxLogin();showLightboxRegistro();return false">Registro</button>
                 </form>
@@ -189,8 +190,6 @@
     <script>
         var firma = new FirmaView()
         firma.render()
-
-        var ref;
 
         var colactualizacion = new Actualizaciones()
         var colactualizacionview = new ColActualizacionView({collection:colactualizacion})

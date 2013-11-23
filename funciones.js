@@ -24,6 +24,12 @@ function showLightboxPeticion() {
     document.getElementById('fadePeticion').style.display='block';
 }
 
+//Mostrar Lightbox de editar usuario
+function showLightboxEditarUsuario() {
+    document.getElementById('overEditarUsuario').style.display='block';
+    document.getElementById('fadeEditarUsuario').style.display='block';
+}
+
 //Ocultar Lightbox del login
 function hideLightboxLogin() {
     document.getElementById('overLogin').style.display='none';
@@ -40,6 +46,12 @@ function hideLightboxRegistro() {
 function hideLightboxPeticion() {
     document.getElementById('overPeticion').style.display='none';
     document.getElementById('fadePeticion').style.display='none';
+}
+
+//Ocultar Lightbox de editar usuario
+function hideLightboxEditarUsuario() {
+    document.getElementById('overEditarUsuario').style.display='none';
+    document.getElementById('fadeEditarUsuario').style.display='none';
 }
 
 //Comprueba si los campos del login no son vacios
@@ -76,6 +88,7 @@ function mostrarUsuario(nombre){
     var botonLogout =$('#botonLogout');
     var botonPeticion =$('#botonPeticion');
     var datosPersonales =$('#datosPersonales');
+    var botonEditarUsuario =$('#botonEditarUsuario');
 
     botonRegistro.hide();
     botonLogin.hide();
@@ -83,6 +96,7 @@ function mostrarUsuario(nombre){
     botonPeticion.show();
     botonLogout.show();
     datosPersonales.hide();
+    botonEditarUsuario.show();
 }
 
 //Funcion que llama a mostrarUsuario con el localStorage en caso de que haya
