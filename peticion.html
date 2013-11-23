@@ -131,15 +131,22 @@
             <h2>Actualizaciones</h2>
             {{=<% %>=}}
             <script id="viewActualizacion" type="text/template">
-                <h3>
+                <p>
                     {{fecha}}
+                </p>
+                <p id="textoActualizaciones">
                     {{contenido}}
-                </h3>
+                </p>
+                <input class="botonEliminarActualizacion btn" type="button" value="Borrar">
+                <input class="botonEditarActualizacion btn" type="button" value="Editar">
+                <input class="botonGuardarActualizacion btn" type="button" style="display:none;" value="Guardar">
+                <input class="botonCancelarActualizacion btn" type="button" style="display:none;" value="Cancelar">
             </script>
             <%={{ }}=%>
 
         </div>
         <script id="divBotonCrearActualizacion" type="text/template">
+            <br>
             <input id="botonCrearActualizacion" class="btn" type="button" value="Crear">
         </script>
 
@@ -182,6 +189,8 @@
     <script>
         var firma = new FirmaView()
         firma.render()
+
+        var ref;
 
         var colactualizacion = new Actualizaciones()
         var colactualizacionview = new ColActualizacionView({collection:colactualizacion})

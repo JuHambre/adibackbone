@@ -8,16 +8,17 @@
 var ColActualizacionView = Backbone.View.extend({
     el: '#divActualizacion',
     initialize: function() {
-        this.collection.on('reset add remove sync', this.render, this)
+        this.collection.on('remove sync', this.render, this)
     },
     render: function(){
         this.$el.html("<h2>Actualizaciones</h2>")
         var $el = this.$el;
         this.collection.forEach(function(actualizacion){
-            act = new ActualizacionView({model:actualizacion});
+            var act = new ActualizacionView({model:actualizacion});
             $el.append(act.render().el);
         })
-        $el.html($el.html() + ($('#divBotonCrearActualizacion').html()));
+        //$el.html($el.html() + ($('#divBotonCrearActualizacion').html())); //Linea infernal no funciona
+        $el.append($('#divBotonCrearActualizacion').html())
     },
     events: {
         "click #botonCrearActualizacion" : "crearActualizacion"
@@ -27,7 +28,6 @@ var ColActualizacionView = Backbone.View.extend({
         var json={
             contenido : $('#comentarioActualizacion').val()
         }
-        console.log(json);
         var actualizacion = new Actualizacion(json)
         this.collection.add(actualizacion);
         actualizacion.save();
