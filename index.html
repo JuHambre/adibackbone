@@ -131,10 +131,12 @@
     <script src="backbone/vistas/usuario.js"> </script>
 
     <script>
-        var usuario = new Usuario();
-        var usuarioView = new UsuarioView({model:usuario});
-        usuario.fetch();
-        usuarioView.render();
+        if(localStorage.login){
+            var usuario = new Usuario();
+            var usuarioView = new UsuarioView({model:usuario});
+            usuario.fetch();
+            usuarioView.render();
+        }
     </script>
 </body>
 </html>

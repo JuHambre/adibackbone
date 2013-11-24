@@ -8,6 +8,14 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
+    <!-- Hallo -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+    <script src="http://rangy.googlecode.com/svn/trunk/currentrelease/rangy-core.js"></script>
+
+    <link rel="stylesheet" href="jquery-ui-1.10.3.custom/css/dark-hive/jquery-ui-1.10.3.custom.min.css">
+    <link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
+
     <link href="estilo.css" rel="stylesheet" >
 </head>
 <body>
@@ -46,9 +54,25 @@
     </div>
     <div id="fadePeticion" class="fadebox">&nbsp;</div>
 
+    <div id="overEditarUsuario" class="overbox">
+        {{=<% %>=}}
+        <script id="viewEditarUsuario" type="text/template">
+            <form id="formEditarUsuario">
+                <p>Nombre</p> <input id="nombreEditarUsuario" name="nombre" type="text" value="{{nombre}}">
+                <p>Apellidos</p> <input id="apellidosEditarUsuario" name="apellidos" type="text" value="{{apellidos}}">
+                <p>Antigua contraseña</p> <input id="oldEditarUsuario" name="oldPassword" type="password">
+                <p>Nueva contraseña</p> <input id="newEditarUsuario" name="newPassword" type="password">
+                <input class="botonEditarUsuario btn" type="button" value="Editar">
+            </form>
+        </script>
+        <%={{ }}=%>
+    </div>
+    <div id="fadeEditarUsuario" class="fadebox">&nbsp;</div>
+
     <a href="javascript:showLightboxLogin();">Hacer Login</a>
     <a href="javascript:showLightboxRegistro();">Registrarse</a>
     <a href="javascript:showLightboxPeticion();">Crear Peticion</a>
+    <a href="javascript:showLightboxEditarUsuario();">Editar Usuario</a>
 
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -177,15 +201,19 @@
     <script src="lib/backbone-min.js"> </script>
     <!-- Mustache -->
     <script src="lib/mustache.js"></script>
+    <!-- Hallo -->
+    <script src="lib/hallo.js"></script>
     <!-- Modelos -->
     <script src="backbone/modelos/firma.js"> </script>
     <script src="backbone/modelos/actualizacion.js"> </script>
+    <script src="backbone/modelos/usuario.js"> </script>
     <!-- Colecciones -->
     <script src="backbone/colecciones/actualizacion.js"> </script>
     <!-- Vistas -->
     <script src="backbone/vistas/firma.js"> </script>
     <script src="backbone/vistas/actualizacion.js"> </script>
     <script src="backbone/vistas/colactualizacion.js"></script>
+    <script src="backbone/vistas/usuario.js"> </script>
 
     <script>
         var firma = new FirmaView()
@@ -194,6 +222,13 @@
         var colactualizacion = new Actualizaciones()
         var colactualizacionview = new ColActualizacionView({collection:colactualizacion})
         colactualizacion.fetch();
+
+        if(localStorage.login){
+            var usuario = new Usuario();
+            var usuarioView = new UsuarioView({model:usuario});
+            usuario.fetch();
+            usuarioView.render();
+        }
     </script>
 </body>
 </html>

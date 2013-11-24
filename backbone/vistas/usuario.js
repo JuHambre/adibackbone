@@ -33,5 +33,6 @@ var UsuarioView = Backbone.View.extend({
         }
         this.model.attributes = json;
         this.model.save();
+        hideLightboxEditarUsuario();
     }
 })

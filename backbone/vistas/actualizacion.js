@@ -23,7 +23,10 @@ var ActualizacionView = Backbone.View.extend({
     editarActualizacion:function(){
         var parrafoTexto = this.$el.find("#textoActualizaciones");
         var texto = this.model.get("contenido");
+        this.$el.find('#textoActualizaciones').hallo({ editable: true, toolbar: 'halloToolbarFixed', plugins: { 'halloformat' : {} } }).focus();
+        /** Sin Hallo
         parrafoTexto.replaceWith('<textarea id="textoActualizaciones">' + texto + '</textarea>');
+        */
         this.cambiarEstadoBoton(['.botonEliminarActualizacion', '.botonEditarActualizacion', '.botonGuardarActualizacion', '.botonCancelarActualizacion']);
     },
     cancelarActualizacion:function(){
@@ -34,9 +37,12 @@ var ActualizacionView = Backbone.View.extend({
     },
     guardarActualizacion:function(){
         var parrafoTexto = this.$el.find("#textoActualizaciones");
-        var texto = parrafoTexto.val();
+        var texto = parrafoTexto.html();
+        /**
         parrafoTexto.replaceWith('<p id="textoActualizaciones">' + texto + '</p>');
-
+        */
+        parrafoTexto.hallo({editable:false});
+        this.cambiarEstadoBoton(['.botonEliminarActualizacion', '.botonEditarActualizacion', '.botonGuardarActualizacion', '.botonCancelarActualizacion']);
         this.model.set('contenido', texto);
         this.model.save();
     },

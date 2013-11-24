@@ -46,9 +46,25 @@
     </div>
     <div id="fadePeticion" class="fadebox">&nbsp;</div>
 
+    <div id="overEditarUsuario" class="overbox">
+        {{=<% %>=}}
+        <script id="viewEditarUsuario" type="text/template">
+            <form id="formEditarUsuario">
+                <p>Nombre</p> <input id="nombreEditarUsuario" name="nombre" type="text" value="{{nombre}}">
+                <p>Apellidos</p> <input id="apellidosEditarUsuario" name="apellidos" type="text" value="{{apellidos}}">
+                <p>Antigua contraseña</p> <input id="oldEditarUsuario" name="oldPassword" type="password">
+                <p>Nueva contraseña</p> <input id="newEditarUsuario" name="newPassword" type="password">
+                <input class="botonEditarUsuario btn" type="button" value="Editar">
+            </form>
+        </script>
+        <%={{ }}=%>
+    </div>
+    <div id="fadeEditarUsuario" class="fadebox">&nbsp;</div>
+
     <a href="javascript:showLightboxLogin();">Hacer Login</a>
     <a href="javascript:showLightboxRegistro();">Registrarse</a>
     <a href="javascript:showLightboxPeticion();">Crear Peticion</a>
+    <a href="javascript:showLightboxEditarUsuario();">Editar Usuario</a>
 
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -63,6 +79,7 @@
             <div class="navbar-collapse collapse">
                 <form class="navbar-form navbar-right">
                     <span id="mensaje"></span>
+                    <button id="botonEditarUsuario" type="submit" class="btn btn-success" onclick="hideLightboxPeticion();showLightboxEditarUsuario();return false" style="display:none;">Editar Usuario</button>
                     <button id="botonPeticion" type="submit" class="btn btn-success" onclick="showLightboxPeticion();return false" style="display:none;">Crear Peticion</button>
                     <button id="botonLogin" type="submit" class="btn btn-success" onclick="hideLightboxRegistro();showLightboxLogin();return false">Login</button>
                     <button id="botonRegistro" type="submit" class="btn btn-success" onclick="hideLightboxLogin();showLightboxRegistro();return false">Registro</button>
@@ -110,5 +127,20 @@
     <script src="lib/underscore-min.js"> </script>
     <!-- el propio backbone -->
     <script src="lib/backbone-min.js"> </script>
+    <!-- Mustache -->
+    <script src="lib/mustache.js"></script>
+    <!-- Modelos -->
+    <script src="backbone/modelos/usuario.js"> </script>
+    <!-- Vistas -->
+    <script src="backbone/vistas/usuario.js"> </script>
+
+    <script>
+        if(localStorage.login){
+            var usuario = new Usuario();
+            var usuarioView = new UsuarioView({model:usuario});
+            usuario.fetch();
+            usuarioView.render();
+        }
+    </script>
 </body>
 </html>

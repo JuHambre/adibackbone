@@ -4,8 +4,8 @@
     <list default="true" id="aa5a530c-7f02-496f-8b62-aa1a396fff95" name="Default" comment="" />
     <ignored path="muevete.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1385237790705" ignored="false" />
-    <file path="/peticion.html" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1385232766397" ignored="false" />
+    <file path="/index.html" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1385311981887" ignored="false" />
+    <file path="/peticion.html" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1385315555035" ignored="false" />
     <file path="/funciones.js" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1385232708240" ignored="false" />
     <file path="/estilo.css" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1383324628932" ignored="false" />
     <file path="/usuario.html" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1382376373280" ignored="false" />
@@ -13,9 +13,9 @@
     <file path="/SpecRunner.html" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1383591216211" ignored="false" />
     <file path="/readme.txt" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1383591032130" ignored="false" />
     <file path="/firma.js" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1384605979607" ignored="false" />
-    <file path="/actualizacion.js" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1385231015225" ignored="false" />
+    <file path="/actualizacion.js" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1385316577585" ignored="false" />
     <file path="/colactualizacion.js" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1384862368267" ignored="false" />
-    <file path="/usuario.js" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1385237692023" ignored="false" />
+    <file path="/usuario.js" changelist="aa5a530c-7f02-496f-8b62-aa1a396fff95" time="1385312412269" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,63 +39,7 @@
     <favorites_list name="muevete" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="peticion.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/peticion.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="43" selection-start="8094" selection-end="8155" vertical-scroll-proportion="-6.9166665">
-              <folding>
-                <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="102" selection-start="2919" selection-end="2919" vertical-scroll-proportion="0.51258993">
-              <folding>
-                <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usuario.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backbone/vistas/usuario.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="43" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#154#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usuario.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backbone/modelos/usuario.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#154#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="firma.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backbone/vistas/firma.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="12" selection-start="558" selection-end="609" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#154#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -108,19 +52,19 @@
         <option value="$PROJECT_DIR$/jasmine/SpecRunner.html" />
         <option value="$PROJECT_DIR$/jasmine/spec/PruebaSpec.js" />
         <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/usuario.html" />
         <option value="$PROJECT_DIR$/backbone/modelos/firma.js" />
         <option value="$PROJECT_DIR$/backbone/modelos/actualizacion.js" />
         <option value="$PROJECT_DIR$/lib/mustache.js" />
         <option value="$PROJECT_DIR$/backbone/colecciones/actualizacion.js" />
         <option value="$PROJECT_DIR$/backbone/vistas/firma.js" />
         <option value="$PROJECT_DIR$/backbone/vistas/colactualizacion.js" />
-        <option value="$PROJECT_DIR$/backbone/vistas/actualizacion.js" />
         <option value="$PROJECT_DIR$/funciones.js" />
-        <option value="$PROJECT_DIR$/peticion.html" />
         <option value="$PROJECT_DIR$/backbone/modelos/usuario.js" />
-        <option value="$PROJECT_DIR$/backbone/vistas/usuario.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/usuario.html" />
+        <option value="$PROJECT_DIR$/backbone/vistas/usuario.js" />
+        <option value="$PROJECT_DIR$/peticion.html" />
+        <option value="$PROJECT_DIR$/backbone/vistas/actualizacion.js" />
       </list>
     </option>
   </component>
@@ -171,74 +115,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="muevete" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muevete" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muevete" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backbone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muevete" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muevete" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backbone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vistas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muevete" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muevete" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backbone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modelos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muevete" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muevete" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backbone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colecciones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,7 +210,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15454546" sideWeight="0.67096776" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2719697" sideWeight="0.67096776" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -425,11 +301,6 @@
         <state line="4" column="29" selection-start="61" selection-end="84" vertical-scroll-proportion="0.10118044" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usuario.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="58" selection-start="4848" selection-end="4848" vertical-scroll-proportion="-12.541667" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/mustache.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="550" column="4" selection-start="17574" selection-end="17574" vertical-scroll-proportion="0.9494098" />
@@ -444,25 +315,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/funciones.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="34" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backbone/modelos/actualizacion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="200" selection-end="200" vertical-scroll-proportion="0.22765599">
-          <folding />
-        </state>
+        <state line="9" column="4" selection-start="200" selection-end="200" vertical-scroll-proportion="0.22765599" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backbone/modelos/firma.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="156" selection-end="243" vertical-scroll-proportion="0.20236088">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="156" selection-end="243" vertical-scroll-proportion="0.20236088" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backbone/vistas/colactualizacion.js">
@@ -474,54 +334,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backbone/vistas/actualizacion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="8" selection-start="1804" selection-end="1866" vertical-scroll-proportion="1.0086207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backbone/vistas/firma.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="12" selection-start="558" selection-end="609" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#154#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backbone/modelos/usuario.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="25" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#154#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backbone/vistas/usuario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#154#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/peticion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="43" selection-start="8094" selection-end="8155" vertical-scroll-proportion="-6.9166665">
-          <folding>
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="102" selection-start="2919" selection-end="2919" vertical-scroll-proportion="0.51258993">
+        <state line="133" column="8" selection-start="6504" selection-end="6527" vertical-scroll-proportion="-83.125">
           <folding>
             <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="9" selection-start="6717" selection-end="6717" vertical-scroll-proportion="-21.916666">
+          <folding>
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funciones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="34" selection-start="1668" selection-end="1668" vertical-scroll-proportion="-1.1724138">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backbone/vistas/usuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="36" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.8229342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backbone/vistas/actualizacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="155" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.6896552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peticion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="70" selection-start="499" selection-end="499" vertical-scroll-proportion="0.32374102">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#form#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
